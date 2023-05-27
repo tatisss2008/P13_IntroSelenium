@@ -41,7 +41,7 @@ describe(
                 for (let i=0; i<=3; i++){
                     let miBusqueda=await miNavegador.findElement(By.id('edit-keys'))
                     //await miBusqueda.sendKeys("ejemplo",Key.RETURN)
-                    await miBusqueda.sendKeys(palabra[i],Key.RETURN)
+                    await miBusqueda.sendKeys(palabra[0],Key.RETURN)
                     await miNavegador.sleep(2000)
                 }
             }
